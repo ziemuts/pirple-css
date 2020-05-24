@@ -1,0 +1,153 @@
+<style>
+body{
+  font-family:Helvetica;
+  background-color: white;
+}
+#navbar{
+  width:100%;
+  background-color:#008000;
+  overflow:hidden;
+  position:fixed;
+}
+#navbar a{
+  float:left;
+  margin:auto;
+  color:#f2f2f2;
+  text-align:center;
+  padding:16px 20px;
+  text-decoration:none;
+  font-size:18px;
+  transition:background .5s ease,color .5s ease;
+}
+#navbar a:hover{
+  background-color:#ff471a;
+  color:black;
+}
+#navbar a:active{
+   background-color:#ff471a;
+   color:white;
+}
+#welcome-section{
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-image:linear-gradient(to bottom left,#1a1a1a,#333333);
+  margin-bottom:40px;
+}
+h1{
+  font-size:40px;
+  color:#ff471a;
+  text-align: center;
+}
+h2{
+  font-weight:200;
+  text-align:center;
+  font-size:20px;
+  color:#ff471a;
+  font-style:bold;
+}
+div.projects{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+.project-tile{
+  margin:auto;
+  border:none;
+  background-color:#1a1a1a;
+  text-decoration:none;
+  padding:10px;
+  width:40px;
+  transition:background 1s ease,padding .4s ease;
+  cursor:pointer;
+  font-size:25px;
+  margin:40px;
+  
+}
+.project-tile:hover{
+  padding:20px;
+  box-shadow:0px 0px 20px #1a1a1a;
+}
+a:hover{
+  text-decoration:none;
+  color:#ff471a;
+}
+a:visited{
+  color:chartreuse;
+}
+a{
+  color:#ff471a;
+  text-decoration:none;
+}
+#contact-section{
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-image:linear-gradient(to bottom left,#1a1a1a,#333333);
+  margin-bottom:40px;
+}
+@media screen and (max-width:600px){
+  #navbar{position:fixed;
+}
+
+
+
+</style>
+
+<div class="topnav">
+  <nav id="navbar">
+    <ul>
+      <a id="link1" class="nav-link" href="#welcome-section">About</a>
+      <a id="link1" class="nav-link" href="#projects">My Projects</a>
+      <a id="link1" class="nav-link" href="#contact-section">Contacts</a>
+      <a id="link1" class="nav-link" href="#certificates-section">Certificates</a>
+
+    </ul>
+  </nav>
+</div>
+<section id="welcome-section">
+  <div class="welcome-text">
+    <h1>Hello! I am Zivai Mutsauri</h1>
+    <h2>Web Developer</h2>
+    
+  </div>
+</section>
+
+<section id="projects">
+  <div class="projects">
+    <div><a class="project-tile" href="https://codepen.io/zee3427/full/KKdXmPL" target="_blank">Tribute Page Project</a></div>
+    <div><a class="project-tile" href="https://codepen.io/zee3427/full/bGVooqZ" target="_blank">Survey Form Project</a></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="projects">
+    <div><a class="project-tile" href="https://codepen.io/zee3427/full/ZEbXvqN" target="_blank">Product Landing Page Project</a></div>
+    <div><a class="project-tile" href="https://codepen.io/zee3427/full/WNQZLqa" target="_blank">Technical Documentation Page Project</a></div>
+  </div>
+</section>
+
+<section id="contact-section">
+  <div class="contact-section" id="contact">
+    <h1>My Contact Info</h1>
+    <h2><a id="profile-link" href="https://www.freecodecamp.org/zee3427" target="_blank">Codepen Profile</a></h2>
+    <h2><a id="profile-link" href="https://www.instagram.com/zeemuts/" target="_blank">Instagram Profile</a></h2>
+  </div>
+</section>
+<section id="certificates-section">
+    <div class="certificates-section" id="certificates">
+      <h1><strong><u>Certifications</u></strong></h1>
+      <h2><a id="profile-link" href="https://www.freecodecamp.org/certification/zee3427/responsive-web-design" target="_blank"><u>Web design Certification</u></a></h2>
+      <h2><a id="profile-link" href="https://learndigital.withgoogle.com/digitalskills/validate-certificate-code" target="_blank"><u>Fundamentals of Digital Marketing Certification</u></a></h2>
+      <h2><a id="profile-link" href="https://www.bitdegree.org/certificates/8e0026ec-edd8-412d-b2f2-5e51dd96bbfa" target="_blank"><u>Introducing Coding for Beginners: an HTML and CSS Online Course</u></a></h2>
+      <h2><a id="profile-link" href="https://www.bitdegree.org/certificates/61e3c9c7-1edd-48d1-bbb1-35535265f894" target="_blank"><u>PHP Facebook Messenger Bot Certification</u></a></h2>
+    </div>
+  </section>
